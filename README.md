@@ -17,7 +17,7 @@ This is a virus simulator which tracks the the spread of a virus while consideri
 * Print the peak value in Plot 2. Make sure you label the axes in both the plots
 
 
-## The Plots
+## A possible set of Plots
 
 ![image](https://user-images.githubusercontent.com/81459933/113349866-4b04ac00-9356-11eb-8714-445842d5d33d.png)
 ![image](https://user-images.githubusercontent.com/81459933/113350276-e138d200-9356-11eb-8305-796869cf1a40.png)
