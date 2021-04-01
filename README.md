@@ -19,6 +19,6 @@ This is a virus simulator which tracks the the spread of a virus while consideri
 
 ## A possible set of Plots
 
-![image](https://user-images.githubusercontent.com/81459933/113349866-4b04ac00-9356-11eb-8714-445842d5d33d.png)
-![image](https://user-images.githubusercontent.com/81459933/113350276-e138d200-9356-11eb-8305-796869cf1a40.png)
+![image](https://user-images.githubusercontent.com/81459933/113351209-27426580-9358-11eb-847e-2c3ff941cfa2.png)
+![image](https://user-images.githubusercontent.com/81459933/113351230-30333700-9358-11eb-9c5b-f0bf12716bd9.png)
 
