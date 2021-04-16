@@ -11,7 +11,7 @@ The data fed to the model is inferred and useful predictions are made based on t
 
 
 ## Descending into ML:
-###Linear Regression
+### Linear Regression
 Data given to us can plotted and a straight line can be drawn where not all the points pass through all the points but substantially many points. . Using the equation for a line, you could write down this relationship as follows:
 #### y'= w1x1 + b
 1. y'= is the predicted label (a desired output)
@@ -22,6 +22,9 @@ Data given to us can plotted and a straight line can be drawn where not all the 
 Although this model uses only one feature, a more sophisticated model might rely on multiple features, each having a separate weight (w1, w2, etc.). For example, a model that relies on three features might look as follows:
 #### y'= b + w1x1 + w2x2
 
+### Training and Loss
+1. Training a model simply means learning (determining) good values for all the weights and the bias from labeled examples. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called empirical risk minimization.
+2. Loss is the penalty for a bad prediction. That is, loss is a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that have low loss, on average, across all examples.
 
 
 
