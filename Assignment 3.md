@@ -36,7 +36,22 @@ The "model" takes one or more features as input and returns one prediction as ou
 . b=0
 . w1=0
 
-Usually, you iterate until overall loss stops changing or at least changes extremely slowly. When that happens, we say that the model has converged.
+Usually, we iterate until overall loss stops changing or changes extremely slowly. When that happens, we say that the model has converged.
+
+## Gradient Descent
+![image](https://user-images.githubusercontent.com/81459933/115086346-b0959280-9f29-11eb-8d7b-a2857e0c3728.png)
+ 1. We choose a random starting point and take the gradient of the curve at that point. 
+ 2. When there are multiple weights, the gradient is a vector of partial derivatives with respect to the weights.
+ 3. The gradient always points in the direction of steepest increase in the loss function. The gradient descent algorithm takes a step in the direction of the negative gradient in order to reduce loss as quickly as possible.
+ 4. To determine the next point along the loss function curve, the gradient descent algorithm adds some fraction of the gradient's magnitude to the starting point
+ 5. This process is repeated until the minima is obtained
+ ![image](https://user-images.githubusercontent.com/81459933/115086637-47fae580-9f2a-11eb-9411-47f31e013138.png)
+
+
+## Learning Rate
+. Gradient descent algorithms multiply the gradient by a scalar known as the learning rate (also sometimes called step size) to determine the next point.
+. For a very small learning rate, the process will take too long and consume computational power
+
 
 ![image](https://user-images.githubusercontent.com/81459933/114316933-5a88af80-9b23-11eb-9642-5fcdd2804fef.png)
 
