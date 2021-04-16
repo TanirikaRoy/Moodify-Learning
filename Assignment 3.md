@@ -38,7 +38,6 @@ The "model" takes one or more features as input and returns one prediction as ou
 
 Usually, you iterate until overall loss stops changing or at least changes extremely slowly. When that happens, we say that the model has converged.
 
-
 ![image](https://user-images.githubusercontent.com/81459933/114316933-5a88af80-9b23-11eb-9642-5fcdd2804fef.png)
 
 ![image](https://user-images.githubusercontent.com/81459933/114316959-755b2400-9b23-11eb-887c-ec939086ff26.png)
