@@ -28,7 +28,7 @@ Although this model uses only one feature, a more sophisticated model might rely
 
 ![image](https://user-images.githubusercontent.com/81459933/114316933-5a88af80-9b23-11eb-9642-5fcdd2804fef.png)
 
-## Reducing Loss
+# Reducing Loss
 An iterative approach is one widely used method for reducing loss, and is as easy and efficient as walking down a hill. 
 ![image](https://user-images.githubusercontent.com/81459933/115071945-8a192c80-9f14-11eb-990a-c3d58062f8ac.png)
 Iterative strategies are prevalent in machine learning, primarily because they scale so well to large data sets.
