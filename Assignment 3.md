@@ -26,11 +26,18 @@ Although this model uses only one feature, a more sophisticated model might rely
 1. Training a model simply means learning (determining) good values for all the weights and the bias from labeled examples. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called empirical risk minimization.
 2. Loss is the penalty for a bad prediction. That is, loss is a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that have low loss, on average, across all examples.
 
-
-
-
-
 ![image](https://user-images.githubusercontent.com/81459933/114316933-5a88af80-9b23-11eb-9642-5fcdd2804fef.png)
+
+## Reducing Loss
+An iterative approach is one widely used method for reducing loss, and is as easy and efficient as walking down a hill. 
+![image](https://user-images.githubusercontent.com/81459933/115071945-8a192c80-9f14-11eb-990a-c3d58062f8ac.png)
+Iterative strategies are prevalent in machine learning, primarily because they scale so well to large data sets.
+The "model" takes one or more features as input and returns one prediction as output. To simplify, consider a model that takes one feature and returns one prediction: y'= b + w1x1
+. b=0
+. w1=0
+
+Usually, you iterate until overall loss stops changing or at least changes extremely slowly. When that happens, we say that the model has converged.
+
 
 ![image](https://user-images.githubusercontent.com/81459933/114316933-5a88af80-9b23-11eb-9642-5fcdd2804fef.png)
 
