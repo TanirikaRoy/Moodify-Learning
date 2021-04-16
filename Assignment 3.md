@@ -33,8 +33,8 @@ An iterative approach is one widely used method for reducing loss, and is as eas
 ![image](https://user-images.githubusercontent.com/81459933/115071945-8a192c80-9f14-11eb-990a-c3d58062f8ac.png)
 Iterative strategies are prevalent in machine learning, primarily because they scale so well to large data sets.
 The "model" takes one or more features as input and returns one prediction as output. To simplify, consider a model that takes one feature and returns one prediction: y'= b + w1x1
-. b=0
-. w1=0
+* b=0
+* w1=0
 
 Usually, we iterate until overall loss stops changing or changes extremely slowly. When that happens, we say that the model has converged.
 
@@ -49,9 +49,9 @@ Usually, we iterate until overall loss stops changing or changes extremely slowl
 
 
 ## Learning Rate
-. Gradient descent algorithms multiply the gradient by a scalar known as the learning rate (also sometimes called step size) to determine the next point.
-. For a very small learning rate, the process will take too long and consume computational power
-
+* Gradient descent algorithms multiply the gradient by a scalar known as the learning rate (also sometimes called step size) to determine the next point.
+* For a very small learning rate, the process will take too long and consume computational power
+* The Goldilocks value is related to how flat the loss function is. If you know the gradient of the loss function is small then you can safely try a larger learning rate, which compensates for the small gradient and results in a larger step size.
 
 ![image](https://user-images.githubusercontent.com/81459933/114316933-5a88af80-9b23-11eb-9642-5fcdd2804fef.png)
 
