@@ -76,4 +76,26 @@ Mini-batch stochastic gradient descent is between full-batch iteration and SGD. 
 TensorFlow APIs are arranged hierarchically, with the high-level APIs built on the low-level APIs. Machine learning researchers use the low-level APIs to create and explore new machine learning algorithms. First we increased the number of epochs sufficiently to get the model to converge and adjusting the learning rate. Lowering the learning rate while increasing the number of epochs or the batch size is often a good combination but the ideal combination is data dependent.
 ![image](https://user-images.githubusercontent.com/81459933/115124781-c1a1da80-9fe1-11eb-9dab-2f00d3d1d06a.png)
 
+# Generalisation
+This is the ability of the model to generalise the raw data. Increasing the complexity to suit the training data causes over-fitting leading to the decrease in performance of the model. 
+
+# Training and Test Sets
+We divide the data into 2 subsets
+* Training set - A subset of data to train the model
+* Test set - A subset of data to test the model
+
+The test set must be large enough to give statistically meaningful results. It should reperesent the data set as a whole and should not have trends that differ form the training set or the data as a whole.
+
+# Validation Set
+Partitioning a data set into a training set and test set lets you judge whether a given model will generalize well to new data. However, using only two partitions may be insufficient when doing many rounds of hyperparameter tuning. Basically, we shuffle the data into different training sets so as to not let our model train specific to the characteristics of one particular kind of test set only.
+
+# Representation
+The data has certain parameters or features on which we will base our model. In order to train a model, we must choose the set of features that best represent the data. 
+![image](https://user-images.githubusercontent.com/81459933/115125210-370eaa80-9fe4-11eb-8be5-2064d13fc0e7.png)
+
+
+![image](https://user-images.githubusercontent.com/81459933/115125114-b51e8180-9fe3-11eb-996c-3fee47adf49c.png)
+
+
+
 
