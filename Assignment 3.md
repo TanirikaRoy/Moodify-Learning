@@ -57,13 +57,23 @@ Usually, we iterate until overall loss stops changing or changes extremely slowl
 
 ![image](https://user-images.githubusercontent.com/81459933/114316959-755b2400-9b23-11eb-887c-ec939086ff26.png)
 
+
+![image](https://user-images.githubusercontent.com/81459933/114317005-ac313a00-9b23-11eb-87ba-ea70f549a267.png)
+
+![image](https://user-images.githubusercontent.com/81459933/114317026-c539eb00-9b23-11eb-9ae4-b03ecfe2fb1e.png)
+
 ## Stochastic Gradient Descent
 A large data set with randomly sampled examples probably contains redundant data. In fact, redundancy becomes more likely as the batch size grows. Some redundancy can be useful to smooth out noisy gradients, but enormous batches tend not to carry much more predictive value than large batches.
 
 ## Mini-Batch Stochastic Gradient Descent
 Mini-batch stochastic gradient descent is between full-batch iteration and SGD. A mini-batch is typically between 10 and 1,000 examples, chosen at random. Mini-batch SGD reduces the amount of noise in SGD but is still more efficient than full-batch. Given enough iterations, SGD works but is very noisy. The term "stochastic" indicates that the one example comprising each batch is chosen at random.
-![image](https://user-images.githubusercontent.com/81459933/114317005-ac313a00-9b23-11eb-87ba-ea70f549a267.png)
-
-![image](https://user-images.githubusercontent.com/81459933/114317026-c539eb00-9b23-11eb-9ae4-b03ecfe2fb1e.png)
 
 ![image](https://user-images.githubusercontent.com/81459933/114317041-d4209d80-9b23-11eb-9240-f2562f5b7027.png)
+
+
+# Tensor Flow
+## Introduction
+TensorFlow APIs are arranged hierarchically, with the high-level APIs built on the low-level APIs. Machine learning researchers use the low-level APIs to create and explore new machine learning algorithms. First we increased the number of epochs sufficiently to get the model to converge and adjusting the learning rate. Lowering the learning rate while increasing the number of epochs or the batch size is often a good combination but the ideal combination is data dependent.
+![image](https://user-images.githubusercontent.com/81459933/115124781-c1a1da80-9fe1-11eb-9dab-2f00d3d1d06a.png)
+
+
