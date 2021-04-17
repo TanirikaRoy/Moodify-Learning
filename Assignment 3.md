@@ -109,9 +109,34 @@ We try to minimize both loss and the complexity. In this topic we analyze model 
  * If lambda value is too high the model will be simple, but risk of underfitting. 
  * If lambda value is too low, model will complex and risk of overfitting. The model won't be able to generalize to new data.
 
+![image](https://user-images.githubusercontent.com/81459933/115125645-257ad200-9fe7-11eb-9a64-8a9ac8b586d6.png)
+![image](https://user-images.githubusercontent.com/81459933/115125652-31669400-9fe7-11eb-8d55-7f9fa325c0dc.png)
 
- 
+# Logistic Regression
+Instead of predicting exactly 0 or 1, logistic regression generates a probability—a value between 0 and 1, exclusive. The probability can be returned either as binary or as is. The sigmoid function produces output having those same characteristics.
+ ![image](https://user-images.githubusercontent.com/81459933/115125686-7f7b9780-9fe7-11eb-92e8-615686454cc3.png)
+  Without regularization, the asymptotic nature of logistic regression would keep driving loss towards 0 in high dimensions. If you don't specify a regularization function, the model will become completely overfit.
+  
+   # Classification
+   
+ In order to map a logistic regression value to a binary category, we have to define a classification threshold.
+ A true positive is an outcome where the model correctly predicts the positive class. Similarly, a true negative is an outcome where the model correctly predicts the negative class. A false positive is an outcome where the model incorrectly predicts the positive class. And a false negative is an outcome where the model incorrectly predicts the negative class.  We can summarize the model using a 2x2 matrix containg the four possible outcomes namely true positive(TP), false positive(FP), true negative(TN), false negative(FN). Then evaluate classification models using metrics(accuracy, precision and recall) derived from these four outcomes.
 
+## Accuracy
+Accuracy is the fraction of correct predictions.
+![image](https://user-images.githubusercontent.com/81459933/115125758-eb5e0000-9fe7-11eb-8af3-0dbd4ac1146b.png)
+![image](https://user-images.githubusercontent.com/81459933/115125796-29f3ba80-9fe8-11eb-98ed-4a90347785f5.png)
+
+
+## Precision
+What proportion of positive identifications was actually correct.
+![image](https://user-images.githubusercontent.com/81459933/115125781-0892ce80-9fe8-11eb-9cbc-5c2bf2507de3.png)
+![image](https://user-images.githubusercontent.com/81459933/115125807-38da6d00-9fe8-11eb-8121-eb1ae6742e99.png)
+
+# Regularization for Sparsity
+In large data sets, certain low proability data values need to be set to exactly 0 which L2 does not do. Thus we introduced L1
+![image](https://user-images.githubusercontent.com/81459933/115125858-9a9ad700-9fe8-11eb-8e0c-31f26b8b429b.png)
+![image](https://user-images.githubusercontent.com/81459933/115125865-a25a7b80-9fe8-11eb-9c68-c33fe1a4e82a.png)
 
 
 
