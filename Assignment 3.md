@@ -88,13 +88,29 @@ The test set must be large enough to give statistically meaningful results. It s
 
 # Validation Set
 Partitioning a data set into a training set and test set lets you judge whether a given model will generalize well to new data. However, using only two partitions may be insufficient when doing many rounds of hyperparameter tuning. Basically, we shuffle the data into different training sets so as to not let our model train specific to the characteristics of one particular kind of test set only.
-
-# Representation
-The data has certain parameters or features on which we will base our model. In order to train a model, we must choose the set of features that best represent the data. 
 ![image](https://user-images.githubusercontent.com/81459933/115125210-370eaa80-9fe4-11eb-8be5-2064d13fc0e7.png)
+# Representation
+The data has certain parameters or features on which we will base our model. In order to train a model, we must choose the set of features that best represent the data. We should check that the feature isn’t noisy
+![image](https://user-images.githubusercontent.com/81459933/115125444-b781db00-9fe5-11eb-9c81-22aaf34ff8c5.png)
+
+# Feature Crosses
+A feature cross is a synthetic feature formed by multiplying (crossing) two or more features. Crossing combinations of features can provide predictive abilities beyond what those features can provide individually.
+However feature crosses between categorical features are sometimes more useful than numerical features. Thus we cross the one hot encodings of these features. From these crosses we get binary features that can be interpreted as logical conjunctions. From such feature crosses we get more predictive ability than either feature of their own.
+![image](https://user-images.githubusercontent.com/81459933/115125506-25c69d80-9fe6-11eb-8f35-a185459a67f4.png)
+
+# Regularization for Simplicity
+Regularization means penalizing the complexity of a model to reduce overfitting.
+We try to minimize both loss and the complexity. In this topic we analyze model complexity as a function of the weights of all the features in the model. We quantify complexity using the L2 regularization formula, which defines the regularization term as the sum of the squares of all the feature weights.
+![image](https://user-images.githubusercontent.com/81459933/115125539-6b836600-9fe6-11eb-8af8-e8c2beb9fa35.png)
+ ## Lambda
+ When we perform L2 regularisation on a model, it encourges weight values toward 0 (but not exactly 0) and encourages the mean of the weights toward  0, with a normal (bell-shaped or Gaussian) distribution.
+ Lowering the value of lambda tends to yield a flatter histogram
+ When choosing a lambda value, the goal is to strike the right balance between simplicity and training-data fit:
+ * If lambda value is too high the model will be simple, but risk of underfitting. 
+ * If lambda value is too low, model will complex and risk of overfitting. The model won't be able to generalize to new data.
 
 
-![image](https://user-images.githubusercontent.com/81459933/115125114-b51e8180-9fe3-11eb-996c-3fee47adf49c.png)
+ 
 
 
 
