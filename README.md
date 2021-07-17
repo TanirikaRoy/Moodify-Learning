@@ -70,4 +70,18 @@ We were divided into teams:
 3. Facial Recognition
 4. App Development
 
-I was a part of the Music API Team. I had 1 partner, Dhawal Singh
+I was a part of the Music API Team. 
+* In the subsequent weeks, we first worked on making a pipeline for continuous fetching of songs and made a test set of 600 songs based on mood. We also hand picked the 16 features for our model ranging from danceability, energy, tone, pitch,duration etc.
+* After picking out the features, we prepared a code to first generate the access token for the user and then another code to fetch the songs with their feature data using the song ids
+* We enabled user authorization using Client ID and Client Secret and generated token
+* We Fetched songs dataset with features such that they can be further classified based on mood 
+* We scraped through API calls using sptotipy which is the python spotify Library.
+* Found a dataset or api that contains songs and the moods associated with them.
+* Came up with an algorithm where in we had the song features and sampled out songs from a large chunk of song database that matched best with the obtained features. This was a very crucial part since these are the songs that would be suggested to the user.
+* For the final step and here we faced so many issues with the WEB API and the coding integration with python in general with the USER AUTH PART. We had to:
+  - Authenticate User  
+  - Find User’s song history
+  - Fetch song features
+  - Make a playlist in spotify
+
+We tried our best to complete these assigned tasks and I was assisted by my subteam mate, Dhawal Singh. 
