@@ -2,8 +2,8 @@
 - [x] Week 1
 - [x] Week 2
 - [x] Week 3
-- [ ] Week 4
-- [ ] Week 5-8 Implementation
+- [x] Week 4
+- [x] Week 5-8 Implementation
 
 
 ## Week 1
@@ -63,4 +63,11 @@ Problem 2: we could use library functions which were inbuilt in Keras and Tensor
 Also basic principles of Data frames and making CSV files were also learnt which came in very handy in the later half of the project.
  
 # Week 5-8: Music API
+This was the implementation part of the project. 
+We were divided into teams:
+1. Music API
+2. Music Clustering
+3. Facial Recognition
+4. App Development
 
+I was a part of the Music API Team. I had 1 partner, Dhawal Singh
