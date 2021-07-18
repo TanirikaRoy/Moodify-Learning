@@ -4,7 +4,11 @@
 - [x] Week 3
 - [x] Week 4
 - [x] Week 5-8 Implementation
+- [x] Final Application Made
 
+This is the application we have made: [Moodify](https://share.streamlit.io/e-kritheesh/mooodify_app/moodify_app.py)
+This is the back- end of the project: [GitHub](https://github.com/E-Kritheesh/mooodify_app)
+The video on how to use the application: [Video](https://drive.google.com/file/d/1vUvba-03rLygTVkayLIZKHDA4PuI-gaU/view?usp=sharing)
 
 ## Week 1
 
@@ -22,12 +26,6 @@ Made a virus simulator which tracks the the spread of a virus while considering 
 * Plot 2: Change in number of ones in each iteration vs Number of iterations
 * Print the peak value in Plot 2. Make sure you label the axes in both the plots
 
-
-### A possible set of Plots
-
-![image](https://user-images.githubusercontent.com/81459933/113351209-27426580-9358-11eb-847e-2c3ff941cfa2.png)
-![image](https://user-images.githubusercontent.com/81459933/113351230-30333700-9358-11eb-9c5b-f0bf12716bd9.png)
-
 ## Week 2
 
 ### Problem 1:
@@ -38,17 +36,11 @@ Made a virus simulator which tracks the the spread of a virus while considering 
 1. -Min AveMonthSpend = 22
    -Max AveMonthSpend = 176
    -Mean AveMonthSpend = 72.39
-   -Median AveMonthSpend = 68
-   -SD AveMonthSpend = 27.26
-2. More customers have not bought bikes.
-3. Median yearly income is as follows: Management > Professional > Skilled Manual > Clerical > Manual Occupation
-4. Customers with no children at home have a lower median AvgMonthSpend values than customers with one or more children at home.
-5. Married customers have a higher median AvgMonthSpend than single customers.
-6. Male customers have a higher median AvgMonthSpend than female customers.
-7. Male customers are more likely to buy bikes than female customers.
-8. Median yearly income is higher for customers who bought a bike.
-9. The code for this project is in Problem-1.ipynb
-10. The values of AveMonthSpend that I get by running my model on the test dataset is there in Problem-1.csv. <br/>
+2. Married customers have a higher median AvgMonthSpend than single customers.
+3. Male customers have a higher median AvgMonthSpend than female customers.
+4. Male customers are more likely to buy bikes than female customers.
+5. Median yearly income is higher for customers who bought a bike.
+6. The code for this project is in Problem-1.ipynb
 ## Problem-2
 Trained the model and used the test data to test it.
 
@@ -83,5 +75,6 @@ I was a part of the Music API Team.
   - Find User’s song history
   - Fetch song features
   - Make a playlist in spotify
-
 We tried our best to complete these assigned tasks and I was assisted by my subteam mate, Dhawal Singh. 
+
+
