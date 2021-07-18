@@ -6,9 +6,9 @@
 - [x] Week 5-8 Implementation
 - [x] Final Application Made
 
-This is the application we have made: [Moodify](https://share.streamlit.io/e-kritheesh/mooodify_app/moodify_app.py)
-This is the back- end of the project: [GitHub](https://github.com/E-Kritheesh/mooodify_app)
-The video on how to use the application: [Video](https://drive.google.com/file/d/1vUvba-03rLygTVkayLIZKHDA4PuI-gaU/view?usp=sharing)
+* This is the application we have made: [Moodify](https://share.streamlit.io/e-kritheesh/mooodify_app/moodify_app.py)
+* This is the back- end of the project: [GitHub](https://github.com/E-Kritheesh/mooodify_app)
+* The video on how to use the application: [Video](https://drive.google.com/file/d/1vUvba-03rLygTVkayLIZKHDA4PuI-gaU/view?usp=sharing)
 
 ## Week 1
 
